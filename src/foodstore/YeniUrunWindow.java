@@ -12,7 +12,7 @@ public class YeniUrunWindow extends JDialog {
     public YeniUrunWindow(JFrame owner) {
         super(owner, "Yeni Ürün Ekle", true);
 
-        urunIslemleri = new UrunDosyaIslemleri("urunler.txt");
+        urunIslemleri = new UrunDosyaIslemleri("data/urunler.txt");
 
         setSize(600, 300);
         setLocationRelativeTo(owner);

@@ -67,7 +67,7 @@ public class StokListeWindow extends JDialog {
         });
 
         
-        File file = new File("stoklar.txt");
+        File file = new File("data/stoklar.txt");
         if (!file.exists()) return;
 
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {

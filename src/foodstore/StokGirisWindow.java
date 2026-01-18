@@ -15,9 +15,9 @@ public class StokGirisWindow extends JDialog {
         this.kullaniciAdi = kullaniciAdi;
 
         
-        urunIslemleri = new UrunDosyaIslemleri("urunler.txt");
-        stokIslemleri = new StokDosyaIslemleri("stoklar.txt");
-        kayitlar = new IslemKayitlariDosyaIslemleri("islem_kayitlari.txt");
+        urunIslemleri = new UrunDosyaIslemleri("data/urunler.txt");
+        stokIslemleri = new StokDosyaIslemleri("data/stoklar.txt");
+        kayitlar = new IslemKayitlariDosyaIslemleri("data/islem_kayitlari.txt");
 
         setSize(460, 310);
         setLocationRelativeTo(null);

@@ -28,7 +28,7 @@ public class RaporlarWindow extends JDialog {
         add(btnKapat);
         btnKapat.addActionListener(e -> dispose());
 
-        File f = new File("islem_kayitlari.txt");
+        File f = new File("data/islem_kayitlari.txt");
         if (!f.exists()) return;
 
         try (BufferedReader reader = new BufferedReader(new FileReader(f))) {
