@@ -1,0 +1,4 @@
+/bin/
+__MACOSX/
+.DS_Store
+*.class

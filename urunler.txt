@@ -1,0 +1,3 @@
+123,pirinç
+124,mercimek
+125,makarna

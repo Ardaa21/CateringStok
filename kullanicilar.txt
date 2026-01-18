@@ -1,0 +1,6 @@
+YONETICI,admin,1234,En sevdiğin renk nedir?,mavi
+PERSONEL,personel,1234
+
+
+
+PERSONEL,arda,1234
